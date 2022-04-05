@@ -1,0 +1,16 @@
+<menu>
+    <menuitem label='Menu Selection'>
+        <menu>
+            <menuitem label='Estudantes'>
+                <menu>
+                    <menuitem label='Estudantes Cadastrados'>
+                        <action>DatagridStudents</action>
+                    </menuitem>
+                    <menuitem label='Cadastrar Estudante'>
+                        <action>FormStudents</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+        </menu>
+    </menuitem>
+</menu>
