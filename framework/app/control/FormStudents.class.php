@@ -37,7 +37,7 @@ class FormStudents extends TPage
 {
     private $form, $datagrid, $formToContact;
 
-    use Adianti\Base\AdiantiStandardListTrait;
+    // use Adianti\Base\AdiantiStandardListTrait;
     function __construct()
     {
         parent::__construct();
@@ -109,8 +109,8 @@ class FormStudents extends TPage
         // Criação do datagrid dos telefones
         $this->datagrid = new BootstrapDatagridWrapper(new TDataGrid);
         $this->datagrid->width = '100%';
-        $this->setDatabase('bancoMySql');
-        $this->setActiveRecord('Contacts');
+        // $this->setDatabase('bancoMySql');
+        // $this->setActiveRecord('Contacts');
 
         $idContact   = new TDataGridColumn('Id', 'Id', 'center', '10%');
         $ddd         = new TDataGridColumn('AreaCode', 'DDD', 'center', '50%');
